@@ -20,9 +20,6 @@ builder.Services.AddAuthentication(builder.Configuration);
 
 builder.Services.AddApplication();
 builder.Services.AddControllers();
-//.AddFluentValidation();
-//builder.Services.AddCarter();
-
 builder.Services.AddApiVersioning(config =>
 {
     config.DefaultApiVersion = new ApiVersion(1, 0);
@@ -68,7 +65,7 @@ if (app.Environment.IsDevelopment())
         //app.ExecuteMigrations(connectionString);
     }
 
-   // app.ApplyMigrations();
+    //app.ApplyMigrations();
 }
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);

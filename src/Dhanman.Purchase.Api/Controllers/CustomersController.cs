@@ -81,8 +81,6 @@ public class CustomersController : ApiController
             return BadRequest(result.Error);
         }
     }
-
-
     #endregion
 
 }

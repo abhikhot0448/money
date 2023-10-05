@@ -11,7 +11,6 @@ internal static class ModelBuilderExtensions
         new ValueConverter<DateTime, DateTime>(outside => outside, inside => DateTime.SpecifyKind(inside, DateTimeKind.Utc));
     #endregion
 
-
     #region Methods
     /// <summary>
     /// Applies the UTC date-time converter to all of the properties that are <see cref="DateTime"/> and end with Utc.

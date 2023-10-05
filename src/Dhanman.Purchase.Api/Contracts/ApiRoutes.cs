@@ -3,6 +3,7 @@
 public static class ApiRoutes
 {
     public const string apiVersion = "api/v{version:apiVersion}/";
+
     public static class Customers
     {
         public const string GetCustomers = apiVersion + "GetAllcustomers/{clientId:guid}";
@@ -13,7 +14,6 @@ public static class ApiRoutes
 
         public const string GetCustomerById = apiVersion + "customers/{id:guid}";
     }
-
    
     public static class Authentication
     {
