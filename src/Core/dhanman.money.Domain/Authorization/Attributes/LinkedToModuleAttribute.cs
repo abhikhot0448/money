@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Authorization.Attributes;
+﻿namespace Dhanman.Money.Domain.Authorization.Attributes;
 
 public sealed class LinkedToModuleAttribute : Attribute
 {

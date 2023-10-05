@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace dhanman.money.Persistence;
+namespace Dhanman.Money.Persistence;
 
 public class ApplicationAssemblyReference
 {

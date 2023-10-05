@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Abstractions;
+﻿namespace Dhanman.Money.Domain.Abstractions;
 
 public interface IUnitOfWork
 {

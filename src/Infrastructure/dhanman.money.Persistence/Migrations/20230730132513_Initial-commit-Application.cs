@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace dhanman.money.Persistence.Migrations
+namespace Dhanman.Money.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class InitialcommitApplication : Migration

@@ -1,10 +1,10 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Abstractions;
 using B2aTech.CrossCuttingConcern.Core.Primitives;
-using dhanman.money.Domain.Entities.Customers;
-using dhanman.money.Domain.Entities.Users.Services;
-using dhanman.money.Domain.Utility;
+using Dhanman.Money.Domain.Entities.Customers;
+using Dhanman.Money.Domain.Entities.Users.Services;
+using Dhanman.Money.Domain.Utility;
 
-namespace dhanman.money.Domain.Entities.Users;
+namespace Dhanman.Money.Domain.Entities.Users;
 
 public class User : Entity, IAuditableEntity, ISoftDeletableEntity
 {

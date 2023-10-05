@@ -1,6 +1,6 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
 
-namespace dhanman.money.Domain;
+namespace Dhanman.Money.Domain;
 
 public static class Errors
 {

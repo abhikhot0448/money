@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Application.Contracts.Common;
+﻿namespace Dhanman.Money.Application.Contracts.Common;
 
 public sealed class EntityUpdatedResponse
 {

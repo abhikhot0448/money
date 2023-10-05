@@ -1,13 +1,9 @@
-﻿namespace dhanman.money.Persistence.Constants;
+﻿namespace Dhanman.Money.Persistence.Constants;
 
 internal static class TableNames
 {
     internal const string Customers = "customers";
-
-    internal const string InvoiceStatuses = "invoice_statuses";
-
-    internal const string InvoicePayments = "invoice_payments";
-
+   
     internal const string Users = "users";
 
     internal const string Roles = "roles";
@@ -16,7 +12,5 @@ internal static class TableNames
 
     internal const string UserPaidModules = "user_paid_modules";
 
-    internal const string InvoiceDetails = "invoice_details";
-
-    internal const string InvoiceHeaders = "invoice_headers";
+   
 }

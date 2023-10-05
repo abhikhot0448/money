@@ -1,6 +1,6 @@
-﻿using dhanman.money.Application.Abstractions.Messaging;
+﻿using Dhanman.Money.Application.Abstractions.Messaging;
 
-namespace dhanman.money.Application.Features.Customers.Events;
+namespace Dhanman.Money.Application.Features.Customers.Events;
 
 public sealed class CustomerUpdatedEvent : IEvent
 {

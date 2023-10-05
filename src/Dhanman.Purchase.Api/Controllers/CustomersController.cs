@@ -1,16 +1,16 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Api.Contracts;
-using dhanman.money.Api.Infrastructure;
-using dhanman.money.Application.Contracts.Common;
-using dhanman.money.Application.Contracts.Customers;
-using dhanman.money.Application.Features.Customers.Commands.CreateCustomer;
-using dhanman.money.Application.Features.Customers.Commands.UpdateCustomer;
-using dhanman.money.Application.Features.Customers.Queries;
-using dhanman.money.Domain;
+using Dhanman.Money.Api.Contracts;
+using Dhanman.Money.Api.Infrastructure;
+using Dhanman.Money.Application.Contracts.Common;
+using Dhanman.Money.Application.Contracts.Customers;
+using Dhanman.Money.Application.Features.Customers.Commands.CreateCustomer;
+using Dhanman.Money.Application.Features.Customers.Commands.UpdateCustomer;
+using Dhanman.Money.Application.Features.Customers.Queries;
+using Dhanman.Money.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dhanman.money.Api.Controllers;
+namespace Dhanman.Money.Api.Controllers;
 
 public class CustomersController : ApiController
 {

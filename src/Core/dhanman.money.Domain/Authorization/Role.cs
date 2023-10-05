@@ -1,6 +1,6 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Exceptions;
 
-namespace dhanman.money.Domain.Authorization;
+namespace Dhanman.Money.Domain.Authorization;
 
 public sealed class Role
 {

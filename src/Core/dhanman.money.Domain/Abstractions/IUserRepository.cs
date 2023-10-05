@@ -1,6 +1,6 @@
-﻿using dhanman.money.Domain.Entities.Users;
+﻿using Dhanman.Money.Domain.Entities.Users;
 
-namespace dhanman.money.Domain.Abstractions;
+namespace Dhanman.Money.Domain.Abstractions;
 
 public interface IUserRepository
 {

@@ -1,12 +1,12 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Contracts.Common;
-using dhanman.money.Application.Features.Customers.Events;
-using dhanman.money.Domain.Abstractions;
-using dhanman.money.Domain.Entities.Customers;
+using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Money.Application.Contracts.Common;
+using Dhanman.Money.Application.Features.Customers.Events;
+using Dhanman.Money.Domain.Abstractions;
+using Dhanman.Money.Domain.Entities.Customers;
 using MediatR;
 
-namespace dhanman.money.Application.Features.Customers.Commands.CreateCustomer;
+namespace Dhanman.Money.Application.Features.Customers.Commands.CreateCustomer;
 
 public class CreateCustomerCommandHandler : ICommandHandler<CreateCustomerCommand, Result<EntityCreatedResponse>>
 {

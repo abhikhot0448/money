@@ -1,7 +1,7 @@
-﻿using dhanman.money.Domain;
+﻿using Dhanman.Money.Domain;
 using FluentValidation;
 
-namespace dhanman.money.Application.Features.Authentication.Commands.Login;
+namespace Dhanman.Money.Application.Features.Authentication.Commands.Login;
 
 public sealed class LoginCommandValidator : AbstractValidator<LoginCommand>
 {

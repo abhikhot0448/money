@@ -1,12 +1,12 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Abstractions.Cryptography;
-using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Contracts.Common;
-using dhanman.money.Domain.Abstractions;
-using dhanman.money.Domain.Entities.Customers;
-using dhanman.money.Domain.Entities.Users;
+using Dhanman.Money.Application.Abstractions.Cryptography;
+using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Money.Application.Contracts.Common;
+using Dhanman.Money.Domain.Abstractions;
+using Dhanman.Money.Domain.Entities.Customers;
+using Dhanman.Money.Domain.Entities.Users;
 
-namespace dhanman.money.Application.Features.Authentication.Commands.Register;
+namespace Dhanman.Money.Application.Features.Authentication.Commands.Register;
 
 internal class RegisterCommandHandler : ICommandHandler<RegisterCommand, Result<EntityCreatedResponse>>
 {

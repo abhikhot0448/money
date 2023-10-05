@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Persistence;
+﻿namespace Dhanman.Money.Persistence;
 
 public sealed class ConnectionString
 {
@@ -7,7 +7,7 @@ public sealed class ConnectionString
     /// <summary>
     /// The connection strings key.
     /// </summary>
-    public const string SettingsKey = "SalesDb";
+    public const string SettingsKey = "MoneyDb";
 
 
     /// <summary>

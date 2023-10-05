@@ -1,6 +1,6 @@
-﻿using dhanman.money.Domain.Entities;
+﻿using Dhanman.Money.Domain.Entities;
 
-namespace dhanman.money.Domain.Utility;
+namespace Dhanman.Money.Domain.Utility;
 
 public static class Ensure
 {
@@ -116,9 +116,9 @@ public static class Ensure
     /// <param name="message">The message to show if the check fails.</param>
     /// <param name="argumentName">The name of the argument being checked.</param>
     /// <exception cref="ArgumentException"> if the specified value is null.</exception>
-    public static void NotEmpty(Money value, string message, string argumentName)
+    public static void NotEmpty(Entities.Money value, string message, string argumentName)
     {
-        if (value == Money.None)
+        if (value == Entities.Money.None)
         {
             throw new ArgumentException(message, argumentName);
         }

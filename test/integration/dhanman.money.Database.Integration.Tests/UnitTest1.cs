@@ -1,4 +1,4 @@
-namespace dhanman.money.Database.Integration.Tests
+namespace Dhanman.Money.Database.Integration.Tests
 {
     public class UnitTest1
     {

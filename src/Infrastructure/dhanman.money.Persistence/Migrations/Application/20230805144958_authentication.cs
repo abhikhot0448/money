@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace dhanman.money.Persistence.Migrations.Application
+namespace Dhanman.Money.Persistence.Migrations.Application
 {
     /// <inheritdoc />
     public partial class authentication : Migration

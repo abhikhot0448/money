@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Authorization;
+﻿namespace Dhanman.Money.Domain.Authorization;
 
 public sealed class UserRole
 {

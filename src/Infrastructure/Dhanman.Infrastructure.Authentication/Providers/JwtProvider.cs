@@ -1,9 +1,9 @@
 ﻿using Dhanman.Infrastructure.Authentication.Abstractions;
 using Dhanman.Infrastructure.Authentication.Options;
-using dhanman.money.Application.Abstractions.Authentication;
-using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Application.Contracts.Authentication;
-using dhanman.money.Domain.Entities.Users;
+using Dhanman.Money.Application.Abstractions.Authentication;
+using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Application.Contracts.Authentication;
+using Dhanman.Money.Domain.Entities.Users;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;

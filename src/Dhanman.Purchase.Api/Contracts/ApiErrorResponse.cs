@@ -1,7 +1,7 @@
 ﻿
 using B2aTech.CrossCuttingConcern.Core.Primitives;
 
-namespace dhanman.money.Api.Contracts;
+namespace Dhanman.Money.Api.Contracts;
 
 public class ApiErrorResponse
 {

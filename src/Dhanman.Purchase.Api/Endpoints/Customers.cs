@@ -1,7 +1,7 @@
 ﻿using Carter;
 using MediatR;
 
-namespace dhanman.money.Api.Endpoints;
+namespace Dhanman.Money.Api.Endpoints;
 
 public class Customers : ICarterModule
 {

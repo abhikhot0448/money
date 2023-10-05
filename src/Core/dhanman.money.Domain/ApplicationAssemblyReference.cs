@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace dhanman.money.Domain;
+namespace Dhanman.Money.Domain;
 
 public class ApplicationAssemblyReference
 {

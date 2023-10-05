@@ -1,7 +1,7 @@
-﻿using dhanman.money.Application.Exceptions;
-using dhanman.money.Domain.Abstractions;
+﻿using Dhanman.Money.Application.Exceptions;
+using Dhanman.Money.Domain.Abstractions;
 using MediatR;
-namespace dhanman.money.Application.Behaviors;
+namespace Dhanman.Money.Application.Behaviors;
 
 internal sealed class UnitOfWorkBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

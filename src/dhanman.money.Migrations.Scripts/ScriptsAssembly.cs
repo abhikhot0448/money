@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Migrations.Scripts
+﻿namespace Dhanman.Money.Migrations.Scripts
 {
     public static class ScriptsAssembly
     {

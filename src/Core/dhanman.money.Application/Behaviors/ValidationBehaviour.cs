@@ -1,10 +1,10 @@
-﻿using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Exceptions;
+﻿using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Sales.Application.Exceptions;
 using FluentValidation;
 using MediatR;
-using ValidationException = dhanman.money.Application.Exceptions.ValidationException;
+using ValidationException = Dhanman.Sales.Application.Exceptions.ValidationException;
 
-namespace dhanman.money.Application.Behaviors;
+namespace Dhanman.Money.Application.Behaviors;
 
 public sealed class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 where TRequest : class, ICommand<TResponse>

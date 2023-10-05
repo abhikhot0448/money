@@ -1,9 +1,9 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
-using dhanman.money.Api.Contracts;
+using Dhanman.Money.Api.Contracts;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dhanman.money.Api.Infrastructure;
+namespace Dhanman.Money.Api.Infrastructure;
 
 //[Authorize]
 public abstract class ApiController : ControllerBase

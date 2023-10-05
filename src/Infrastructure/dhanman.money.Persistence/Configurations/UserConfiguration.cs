@@ -1,10 +1,10 @@
-﻿using dhanman.money.Domain.Entities.Customers;
-using dhanman.money.Domain.Entities.Users;
-using dhanman.money.Persistence.Constants;
+﻿using Dhanman.Money.Domain.Entities.Customers;
+using Dhanman.Money.Domain.Entities.Users;
+using Dhanman.Money.Persistence.Constants;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace dhanman.money.Persistence.Configurations;
+namespace Dhanman.Money.Persistence.Configurations;
 
 internal sealed class UserConfiguration : IEntityTypeConfiguration<User>
 {

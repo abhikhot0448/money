@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Application.Contracts.Customers;
+﻿namespace Dhanman.Money.Application.Contracts.Customers;
 
 public sealed class CustomerResponse
 {

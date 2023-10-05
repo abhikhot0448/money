@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Dhanman.Money.Migrations.Scripts\Dhanman.Money.Migrations.Scripts.csproj" />
+    <ProjectReference Include="..\..\src\dhanman.money.Migrations.Scripts\Dhanman.Money.Migrations.Scripts.csproj" />
   </ItemGroup>
 
 </Project>

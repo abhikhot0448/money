@@ -1,7 +1,7 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
 using B2aTech.CrossCuttingConcern.Core.Result;
 
-namespace dhanman.money.Domain.Entities.Customers;
+namespace Dhanman.Money.Domain.Entities.Customers;
 
 public sealed class LastName : ValueObject
 {

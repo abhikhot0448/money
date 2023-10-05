@@ -1,6 +1,6 @@
-﻿using dhanman.money.Application.Abstractions.Data;
+﻿using Dhanman.Money.Application.Abstractions.Data;
 
-namespace dhanman.money.Persistence.Common;
+namespace Dhanman.Money.Persistence.Common;
 
 internal sealed class MachineDateTime : IDateTime
 {

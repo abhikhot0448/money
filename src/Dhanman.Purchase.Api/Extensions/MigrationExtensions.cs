@@ -1,7 +1,7 @@
-﻿using dhanman.money.Persistence;
+﻿using Dhanman.Money.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace dhanman.money.Api.Extensions;
+namespace Dhanman.Money.Api.Extensions;
 
 public static class MigrationExtensions
 {

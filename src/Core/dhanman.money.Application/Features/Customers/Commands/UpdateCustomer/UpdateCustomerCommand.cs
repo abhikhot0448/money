@@ -1,8 +1,8 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Contracts.Common;
+using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Money.Application.Contracts.Common;
 
-namespace dhanman.money.Application.Features.Customers.Commands.UpdateCustomer;
+namespace Dhanman.Money.Application.Features.Customers.Commands.UpdateCustomer;
 
 public sealed class UpdateCustomerCommand : ICommand<Result<EntityUpdatedResponse>>
 {

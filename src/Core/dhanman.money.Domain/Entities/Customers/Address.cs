@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Entities.Customers;
+﻿namespace Dhanman.Money.Domain.Entities.Customers;
 
 public class Address
 {

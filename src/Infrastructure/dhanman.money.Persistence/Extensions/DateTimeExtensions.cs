@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Persistence.Extensions;
+﻿namespace Dhanman.Money.Persistence.Extensions;
 
 public static class DateTimeExtensions
 {

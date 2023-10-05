@@ -1,9 +1,9 @@
 ﻿using Dhanman.Infrastructure.Authentication.Abstractions;
 using Dhanman.Infrastructure.Authentication.Constants;
 using Dhanman.Infrastructure.Authentication.Permissions;
-using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Domain.Authorization;
-using dhanman.money.Domain.Entities.Users;
+using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Domain.Authorization;
+using Dhanman.Money.Domain.Entities.Users;
 using System.Security.Claims;
 
 namespace Dhanman.Infrastructure.Authentication.Providers;

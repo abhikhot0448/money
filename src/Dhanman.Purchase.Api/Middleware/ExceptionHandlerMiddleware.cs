@@ -1,7 +1,7 @@
-﻿using dhanman.money.Application.Exceptions;
+﻿using Dhanman.Sales.Application.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dhanman.money.Api.Middleware;
+namespace Dhanman.Money.Api.Middleware;
 
 public class ExceptionHandlerMiddleware
 {

@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Application.Contracts.Authentication;
+﻿namespace Dhanman.Money.Application.Contracts.Authentication;
 
 public sealed class RegisterRequest
 {

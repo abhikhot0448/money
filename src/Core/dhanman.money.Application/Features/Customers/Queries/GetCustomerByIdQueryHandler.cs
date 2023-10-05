@@ -1,12 +1,12 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Contracts.Customers;
-using dhanman.money.Domain;
-using dhanman.money.Domain.Entities.Customers;
+using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Money.Application.Contracts.Customers;
+using Dhanman.Money.Domain;
+using Dhanman.Money.Domain.Entities.Customers;
 using Microsoft.EntityFrameworkCore;
 
-namespace dhanman.money.Application.Features.Customers.Queries;
+namespace Dhanman.Money.Application.Features.Customers.Queries;
 
 internal sealed class GetCustomerByIdQueryHandler : IQueryHandler<GetCustomerByIdQuery, Result<CustomerResponse>>
 {

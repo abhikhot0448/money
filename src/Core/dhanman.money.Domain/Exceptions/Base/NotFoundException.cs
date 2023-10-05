@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Exceptions.Base;
+﻿namespace Dhanman.Money.Domain.Exceptions.Base;
 
 public abstract class NotFoundException : Exception
 {

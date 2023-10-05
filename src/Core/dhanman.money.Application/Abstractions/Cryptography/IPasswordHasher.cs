@@ -1,6 +1,6 @@
-﻿using dhanman.money.Domain.Entities.Users;
+﻿using Dhanman.Money.Domain.Entities.Users;
 
-namespace dhanman.money.Application.Abstractions.Cryptography;
+namespace Dhanman.Money.Application.Abstractions.Cryptography;
 
 public interface IPasswordHasher
 {

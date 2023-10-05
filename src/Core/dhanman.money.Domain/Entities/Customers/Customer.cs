@@ -1,7 +1,7 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Abstractions;
 using B2aTech.CrossCuttingConcern.Core.Primitives;
 
-namespace dhanman.money.Domain.Entities.Customers;
+namespace Dhanman.Money.Domain.Entities.Customers;
 
 public class Customer : Entity, IAuditableEntity, ISoftDeletableEntity
 {

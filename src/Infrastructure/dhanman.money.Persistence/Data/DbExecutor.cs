@@ -2,7 +2,7 @@
 using Dapper;
 using System.Data;
 
-namespace dhanman.money.Persistence.Data;
+namespace Dhanman.Money.Persistence.Data;
 
 internal sealed class DbExecutor : IDbExecutor
 {

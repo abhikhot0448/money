@@ -1,4 +1,4 @@
-﻿using dhanman.money.Domain.Entities.Users;
+﻿using Dhanman.Money.Domain.Entities.Users;
 using System.Security.Claims;
 
 namespace Dhanman.Infrastructure.Authentication.Abstractions;

@@ -1,7 +1,7 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
 using Microsoft.EntityFrameworkCore;
 
-namespace dhanman.money.Application.Abstractions.Data;
+namespace Dhanman.Money.Application.Abstractions.Data;
 
 
 public interface IApplicationDbContext

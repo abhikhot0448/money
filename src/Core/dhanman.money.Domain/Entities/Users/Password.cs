@@ -1,7 +1,7 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
 using B2aTech.CrossCuttingConcern.Core.Result;
 
-namespace dhanman.money.Domain.Entities.Users;
+namespace Dhanman.Money.Domain.Entities.Users;
 
 public sealed class Password : ValueObject
 {

@@ -1,7 +1,7 @@
-﻿using dhanman.money.Application.Abstractions.Messaging;
+﻿using Dhanman.Money.Application.Abstractions.Messaging;
 using MediatR;
 
-namespace dhanman.money.Application.Exceptions;
+namespace Dhanman.Money.Application.Exceptions;
 
 public static class RequestExtensions
 {

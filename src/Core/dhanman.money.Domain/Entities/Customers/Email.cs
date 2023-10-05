@@ -2,7 +2,7 @@
 using B2aTech.CrossCuttingConcern.Core.Result;
 using System.Text.RegularExpressions;
 
-namespace dhanman.money.Domain.Entities.Customers;
+namespace Dhanman.Money.Domain.Entities.Customers;
 
 public sealed class Email : ValueObject
 {

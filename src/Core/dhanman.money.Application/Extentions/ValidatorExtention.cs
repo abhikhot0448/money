@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace dhanman.money.Application.Extentions;
+namespace Dhanman.Money.Application.Extentions;
 
 public static class ValidatorExtention
 {

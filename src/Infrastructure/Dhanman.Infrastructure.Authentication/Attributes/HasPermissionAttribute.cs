@@ -1,4 +1,4 @@
-﻿using dhanman.money.Domain.Authorization;
+﻿using Dhanman.Money.Domain.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Dhanman.Infrastructure.Authentication.Attributes;

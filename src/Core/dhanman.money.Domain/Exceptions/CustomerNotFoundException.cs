@@ -1,6 +1,6 @@
-﻿using dhanman.money.Domain.Exceptions.Base;
+﻿using Dhanman.Money.Domain.Exceptions.Base;
 
-namespace dhanman.money.Domain.Exceptions;
+namespace Dhanman.Money.Domain.Exceptions;
 
 public sealed class CustomerNotFoundException : NotFoundException
 {

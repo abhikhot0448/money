@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace dhanman.money.Persistence;
+namespace Dhanman.Money.Persistence;
 
 public static class MyModuleInitializer
 {

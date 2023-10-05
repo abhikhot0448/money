@@ -1,5 +1,5 @@
-﻿using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Domain.Authorization;
+﻿using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Domain.Authorization;
 
 namespace Dhanman.Infrastructure.Authentication.Permissions;
 

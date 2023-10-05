@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace dhanman.money.Persistence.Migrations.Application
+namespace Dhanman.Money.Persistence.Migrations.Application
 {
     /// <inheritdoc />
     public partial class userentity : Migration

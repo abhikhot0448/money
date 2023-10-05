@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "api-dhanman-sales-nonprod",
+      "defaultValue": "api-dhanman-money-nonprod",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

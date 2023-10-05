@@ -25,10 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\migrations\dhanman.money.Migrations.Core\dhanman.money.Migrations.Core.csproj" />
-    <ProjectReference Include="..\Core\dhanman.money.Application.Contracts\dhanman.money.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\migrations\Dhanman.Money.Migrations.Core\Dhanman.Money.Migrations.Core.csproj" />
+    <ProjectReference Include="..\Core\Dhanman.Money.Application.Contracts\Dhanman.Money.Application.Contracts.csproj" />
     <ProjectReference Include="..\Infrastructure\Dhanman.Infrastructure.Authentication\Dhanman.Infrastructure.Authentication.csproj" />
-    <ProjectReference Include="..\Infrastructure\dhanman.money.Persistence\dhanman.money.Persistence.csproj" />
+    <ProjectReference Include="..\Infrastructure\Dhanman.Money.Persistence\Dhanman.Money.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

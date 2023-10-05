@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Domain.Entities.Users.Services;
+﻿namespace Dhanman.Money.Domain.Entities.Users.Services;
 
 public interface IPasswordHashChecker
 {

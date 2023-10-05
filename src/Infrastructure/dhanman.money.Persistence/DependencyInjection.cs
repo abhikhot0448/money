@@ -1,14 +1,14 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Abstractions;
-using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Domain.Abstractions;
-using dhanman.money.Persistence.Common;
-using dhanman.money.Persistence.Data;
-using dhanman.money.Persistence.Repositories;
+using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Domain.Abstractions;
+using Dhanman.Money.Persistence.Common;
+using Dhanman.Money.Persistence.Data;
+using Dhanman.Money.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace dhanman.money.Persistence;
+namespace Dhanman.Money.Persistence;
 
 public static class DependencyInjection
 {
@@ -48,10 +48,7 @@ public static class DependencyInjection
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IInvoiceStatusRepository, InvoiceStatusRepository>();
-            services.AddScoped<IInvoiceDetailRepository, InvoiceDetailRepository>();
-            services.AddScoped<IInvoicePaymentRepository, InvoicePaymentRepository>();
-            services.AddScoped<IInvoiceHeaderRepository, InvoiceHeaderRepository>();
+           
         }
         return services;
     }

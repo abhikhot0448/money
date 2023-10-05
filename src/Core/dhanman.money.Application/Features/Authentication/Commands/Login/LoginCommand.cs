@@ -1,8 +1,8 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Abstractions.Messaging;
-using dhanman.money.Application.Contracts.Authentication;
+using Dhanman.Money.Application.Abstractions.Messaging;
+using Dhanman.Money.Application.Contracts.Authentication;
 
-namespace dhanman.money.Application.Features.Authentication.Commands.Login;
+namespace Dhanman.Money.Application.Features.Authentication.Commands.Login;
 
 public sealed class LoginCommand : ICommand<Result<TokenResponse>>
 {

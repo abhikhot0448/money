@@ -1,6 +1,6 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
 
-namespace dhanman.money.Domain.Entities;
+namespace Dhanman.Money.Domain.Entities;
 
 public sealed class Currency : Enumeration<Currency>
 {

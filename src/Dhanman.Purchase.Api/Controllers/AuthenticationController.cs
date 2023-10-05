@@ -1,15 +1,15 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Api.Contracts;
-using dhanman.money.Api.Infrastructure;
-using dhanman.money.Application.Contracts.Authentication;
-using dhanman.money.Application.Features.Authentication.Commands.Login;
-using dhanman.money.Application.Features.Authentication.Commands.Register;
-using dhanman.money.Domain;
+using Dhanman.Money.Api.Contracts;
+using Dhanman.Money.Api.Infrastructure;
+using Dhanman.Money.Application.Contracts.Authentication;
+using Dhanman.Money.Application.Features.Authentication.Commands.Login;
+using Dhanman.Money.Application.Features.Authentication.Commands.Register;
+using Dhanman.Money.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dhanman.money.Api.Controllers
+namespace Dhanman.Money.Api.Controllers
 {
     [AllowAnonymous]
     public class AuthenticationController : ApiController

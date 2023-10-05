@@ -1,4 +1,4 @@
-namespace dhanman.money.Domain.Tests
+namespace Dhanman.Money.Domain.Tests
 {
     public class UnitTest1
     {

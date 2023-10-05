@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\dhanman.money.Application\dhanman.money.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Dhanman.Money.Application\Dhanman.Money.Application.csproj" />
   </ItemGroup>
 
 </Project>

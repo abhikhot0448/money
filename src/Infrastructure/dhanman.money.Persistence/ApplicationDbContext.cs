@@ -1,13 +1,13 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Abstractions;
 using B2aTech.CrossCuttingConcern.Core.Primitives;
-using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Domain.Abstractions;
-using dhanman.money.Persistence.Extensions;
+using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Domain.Abstractions;
+using Dhanman.Money.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Reflection;
 
-namespace dhanman.money.Persistence;
+namespace Dhanman.Money.Persistence;
 
 public sealed class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
 {

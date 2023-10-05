@@ -1,9 +1,9 @@
 using Dhanman.Infrastructure.Authentication;
-using dhanman.money.Api.Extensions;
-using dhanman.money.Api.Middleware;
-using dhanman.money.Application;
-using dhanman.money.Migrations.Core.Extensions;
-using dhanman.money.Persistence;
+using Dhanman.Money.Api.Extensions;
+using Dhanman.Money.Api.Middleware;
+using Dhanman.Money.Application;
+using Dhanman.Money.Migrations.Core.Extensions;
+using Dhanman.Money.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Serilog;
@@ -65,10 +65,10 @@ if (app.Environment.IsDevelopment())
 
     if (connectionString.Length > 0)
     {
-        app.ExecuteMigrations(connectionString);
+        //app.ExecuteMigrations(connectionString);
     }
 
-    app.ApplyMigrations();
+   // app.ApplyMigrations();
 }
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);

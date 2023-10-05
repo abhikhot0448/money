@@ -1,4 +1,4 @@
-﻿namespace dhanman.money.Application.Abstractions.Authentication;
+﻿namespace Dhanman.Money.Application.Abstractions.Authentication;
 
 public interface IUserIdentifierProvider
 {

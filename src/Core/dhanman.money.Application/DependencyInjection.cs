@@ -1,11 +1,11 @@
-﻿using dhanman.money.Application.Behaviors;
-using dhanman.money.Application.Extentions;
+﻿using Dhanman.Money.Application.Behaviors;
+using Dhanman.Money.Application.Extentions;
 using MediatR;
 using MediatR.NotificationPublishers;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace dhanman.money.Application;
+namespace Dhanman.Money.Application;
 
 public static class DependencyInjection
 {

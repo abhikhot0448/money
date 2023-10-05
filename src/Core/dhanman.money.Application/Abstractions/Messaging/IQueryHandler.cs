@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace dhanman.money.Application.Abstractions.Messaging;
+namespace Dhanman.Money.Application.Abstractions.Messaging;
 
 public interface IQueryHandler<in TQuery, TResponse> : IRequestHandler<TQuery, TResponse>
 where TQuery : IQuery<TResponse>

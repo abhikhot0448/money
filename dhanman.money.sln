@@ -7,41 +7,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{652284F7-F14
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{79AF229B-288C-4E0C-B044-ED6D18F28030}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Domain", "src\Core\dhanman.money.Domain\dhanman.money.Domain.csproj", "{8F395C9B-4E5C-4D26-8ED9-EE49C65E4905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Domain", "src\Core\dhanman.money.Domain\Dhanman.Money.Domain.csproj", "{8F395C9B-4E5C-4D26-8ED9-EE49C65E4905}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Application", "src\Core\dhanman.money.Application\dhanman.money.Application.csproj", "{8FE63263-444F-47BB-BFE8-88CFB0B53440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Application", "src\Core\dhanman.money.Application\Dhanman.Money.Application.csproj", "{8FE63263-444F-47BB-BFE8-88CFB0B53440}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{7ED27BC1-EA65-413A-95F3-CAA2CD75D56F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Persistence", "src\Infrastructure\dhanman.money.Persistence\dhanman.money.Persistence.csproj", "{07904E75-3026-4640-B168-B51B6B6F5736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Persistence", "src\Infrastructure\dhanman.money.Persistence\Dhanman.Money.Persistence.csproj", "{07904E75-3026-4640-B168-B51B6B6F5736}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{625F7E64-D3F3-414B-9050-9EE3C732BF88}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Api", "src\Dhanman.Purchase.Api\dhanman.money.Api.csproj", "{0824ACDD-3840-4F12-90AF-A6ED3E2FBD1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Api", "src\Dhanman.Purchase.Api\Dhanman.Money.Api.csproj", "{0824ACDD-3840-4F12-90AF-A6ED3E2FBD1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrations", "migrations", "{10677405-7239-4A45-A664-2066D3556112}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A495699E-97B1-48C7-944E-B9EEE3938A62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Migrations.Core", "migrations\dhanman.money.Migrations.Core\dhanman.money.Migrations.Core.csproj", "{E102EE3F-24BB-4FD1-A373-365E7A01D6FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Migrations.Core", "migrations\dhanman.money.Migrations.Core\Dhanman.Money.Migrations.Core.csproj", "{E102EE3F-24BB-4FD1-A373-365E7A01D6FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Migrations.Scripts", "src\dhanman.money.Migrations.Scripts\dhanman.money.Migrations.Scripts.csproj", "{83701672-E02D-41CA-A85F-B9EC73FB914C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Migrations.Scripts", "src\dhanman.money.Migrations.Scripts\Dhanman.Money.Migrations.Scripts.csproj", "{83701672-E02D-41CA-A85F-B9EC73FB914C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dhanman.money.Application.Contracts", "src\Core\dhanman.money.Application.Contracts\dhanman.money.Application.Contracts.csproj", "{C5D762B3-D765-487A-89D7-71278516DA4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Application.Contracts", "src\Core\dhanman.money.Application.Contracts\Dhanman.Money.Application.Contracts.csproj", "{C5D762B3-D765-487A-89D7-71278516DA4E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Infrastructure.Authentication", "src\Infrastructure\Dhanman.Infrastructure.Authentication\Dhanman.Infrastructure.Authentication.csproj", "{F86FD130-AAD6-4354-978D-29C4007932B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{E54C6CBB-800B-41AC-BA34-532CE6ACD6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhanman.money.Api.Tests", "test\unit\dhanman.money.Api.Tests\dhanman.money.Api.Tests.csproj", "{9406C597-3FC2-44D6-B8CC-E62CB55AD440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Api.Tests", "test\unit\dhanman.money.Api.Tests\Dhanman.Money.Api.Tests.csproj", "{9406C597-3FC2-44D6-B8CC-E62CB55AD440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhanman.money.Domain.Tests", "test\unit\dhanman.money.Domain.Tests\dhanman.money.Domain.Tests.csproj", "{4CCC7C38-53AF-4593-99A8-534EC2D38B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Domain.Tests", "test\unit\dhanman.money.Domain.Tests\Dhanman.Money.Domain.Tests.csproj", "{4CCC7C38-53AF-4593-99A8-534EC2D38B94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{89240ECA-859A-4915-8E17-564D812572FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhanman.money.Api.Integration.Tests", "test\integration\dhanman.money.Integration.Tests\dhanman.money.Api.Integration.Tests.csproj", "{941ADFF6-BEA4-492D-BC0F-1FB4BB078017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Api.Integration.Tests", "test\integration\dhanman.money.Integration.Tests\Dhanman.Money.Api.Integration.Tests.csproj", "{941ADFF6-BEA4-492D-BC0F-1FB4BB078017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dhanman.money.Database.Integration.Tests", "test\integration\dhanman.money.Database.Integration.Tests\dhanman.money.Database.Integration.Tests.csproj", "{B9DF794E-2148-431A-9185-B8569BF48DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dhanman.Money.Database.Integration.Tests", "test\integration\dhanman.money.Database.Integration.Tests\Dhanman.Money.Database.Integration.Tests.csproj", "{B9DF794E-2148-431A-9185-B8569BF48DB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

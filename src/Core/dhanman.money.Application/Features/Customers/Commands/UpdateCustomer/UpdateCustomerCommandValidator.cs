@@ -1,7 +1,7 @@
-﻿using dhanman.money.Domain.Abstractions;
+﻿using Dhanman.Money.Domain.Abstractions;
 using FluentValidation;
 
-namespace dhanman.money.Application.Features.Customers.Commands.UpdateCustomer;
+namespace Dhanman.Money.Application.Features.Customers.Commands.UpdateCustomer;
 
 public class UpdateCustomerCommandValidator : AbstractValidator<UpdateCustomerCommand>
 {

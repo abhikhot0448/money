@@ -1,7 +1,7 @@
-﻿using dhanman.money.Domain.Authorization.Attributes;
+﻿using Dhanman.Money.Domain.Authorization.Attributes;
 using System.ComponentModel.DataAnnotations;
 
-namespace dhanman.money.Domain.Authorization;
+namespace Dhanman.Money.Domain.Authorization;
 
 public enum Permission
 {

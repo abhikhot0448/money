@@ -1,7 +1,7 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Primitives;
-using dhanman.money.Domain.Utility;
+using Dhanman.Money.Domain.Utility;
 
-namespace dhanman.money.Domain.Entities;
+namespace Dhanman.Money.Domain.Entities;
 
 public sealed class Money : ValueObject
 {

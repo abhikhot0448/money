@@ -1,9 +1,9 @@
-﻿using dhanman.money.Application.Abstractions.Data;
-using dhanman.money.Domain.Abstractions;
-using dhanman.money.Domain.Entities.Customers;
+﻿using Dhanman.Money.Application.Abstractions.Data;
+using Dhanman.Money.Domain.Abstractions;
+using Dhanman.Money.Domain.Entities.Customers;
 using Microsoft.EntityFrameworkCore;
 
-namespace dhanman.money.Persistence.Repositories;
+namespace Dhanman.Money.Persistence.Repositories;
 
 internal sealed class CustomerRepository : ICustomerRepository
 {

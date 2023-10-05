@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace dhanman.money.Persistence.Extensions;
+namespace Dhanman.Money.Persistence.Extensions;
 
 internal static class ModelBuilderExtensions
 {

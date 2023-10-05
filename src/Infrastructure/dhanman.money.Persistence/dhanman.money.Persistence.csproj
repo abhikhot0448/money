@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\dhanman.money.Application\dhanman.money.Application.csproj" />
-    <ProjectReference Include="..\..\Core\dhanman.money.Domain\dhanman.money.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Dhanman.Money.Application\Dhanman.Money.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Dhanman.Money.Domain\Dhanman.Money.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

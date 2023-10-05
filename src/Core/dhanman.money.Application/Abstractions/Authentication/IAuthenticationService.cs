@@ -1,9 +1,9 @@
 ﻿using B2aTech.CrossCuttingConcern.Core.Result;
-using dhanman.money.Application.Contracts.Authentication;
-using dhanman.money.Domain.Entities.Customers;
-using dhanman.money.Domain.Entities.Users;
+using Dhanman.Money.Application.Contracts.Authentication;
+using Dhanman.Money.Domain.Entities.Customers;
+using Dhanman.Money.Domain.Entities.Users;
 
-namespace dhanman.money.Application.Abstractions.Authentication;
+namespace Dhanman.Money.Application.Abstractions.Authentication;
 
 public interface IAuthenticationService
 {

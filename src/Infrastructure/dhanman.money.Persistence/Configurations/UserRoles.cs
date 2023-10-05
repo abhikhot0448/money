@@ -1,8 +1,8 @@
-﻿using dhanman.money.Persistence.Constants;
+﻿using Dhanman.Money.Persistence.Constants;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace dhanman.money.Persistence.Configurations;
+namespace Dhanman.Money.Persistence.Configurations;
 
 internal sealed class UserRoles : IEntityTypeConfiguration<Domain.Authorization.UserPaidModules>
 {
